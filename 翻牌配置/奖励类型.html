@@ -61,7 +61,7 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../添加材质.html" />
+    <link rel="next" href="奖励类型/原版物品.html" />
     
     
     <link rel="prev" href="award奖励配置.html" />
@@ -209,6 +209,77 @@
             
 
             
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.5.1" data-path="奖励类型/原版物品.html">
+            
+                <a href="奖励类型/原版物品.html">
+            
+                    
+                    原版物品
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.2" data-path="奖励类型/添加的物品.html">
+            
+                <a href="奖励类型/添加的物品.html">
+            
+                    
+                    添加的物品
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.3" data-path="奖励类型/指令奖励.html">
+            
+                <a href="奖励类型/指令奖励.html">
+            
+                    
+                    指令奖励
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.4" data-path="奖励类型/mmoitems物品.html">
+            
+                <a href="奖励类型/mmoitems物品.html">
+            
+                    
+                    mmoitems物品
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.5" data-path="奖励类型/itemsadder物品.html">
+            
+                <a href="奖励类型/itemsadder物品.html">
+            
+                    
+                    itemsadder物品
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
         </li>
     
 
@@ -294,34 +365,6 @@
                                 <section class="normal markdown-section">
                                 
                                 <h2 id="&#x5956;&#x52B1;&#x7C7B;&#x578B;">&#x5956;&#x52B1;&#x7C7B;&#x578B;</h2>
-<pre><code class="lang-yaml"><span class="hljs-attr">award:</span>
-  <span class="hljs-number">1</span>:
-<span class="hljs-attr">    type:</span> mc
-<span class="hljs-attr">    material:</span> GOLDEN_APPLE <span class="hljs-comment">#&#x539F;&#x7248;&#x7269;&#x54C1;&#x7684;&#x7A7A;&#x95F4;&#x547D;&#x540D;id&#xFF0C;&#x53EF;&#x5728;mcwiki&#x67E5;&#x770B;</span>
-<span class="hljs-attr">    amount:</span> <span class="hljs-number">1</span>~<span class="hljs-number">5</span>
-<span class="hljs-attr">    rate:</span> <span class="hljs-number">3</span>
-<span class="hljs-attr">    edge:</span> very_rare
-  <span class="hljs-number">2</span>:
-<span class="hljs-attr">    type:</span> item
-<span class="hljs-attr">    key:</span> sword <span class="hljs-comment">#item&#x6587;&#x4EF6;&#x5939;&#x4E2D;&#x7684;&#x6587;&#x4EF6;&#x540D;</span>
-<span class="hljs-attr">    amount:</span> <span class="hljs-number">1</span>
-<span class="hljs-attr">    rate:</span> <span class="hljs-number">1</span>
-<span class="hljs-attr">    edge:</span> very_rare
-  <span class="hljs-number">3</span>:
-<span class="hljs-attr">    type:</span> mmoitems
-<span class="hljs-attr">    mi_type:</span> MATERIAL <span class="hljs-comment">#mi&#x7269;&#x54C1;&#x7684;&#x79CD;&#x7C7B;</span>
-<span class="hljs-attr">    mi_name:</span> SILVER_INGOT <span class="hljs-comment">#mi&#x7269;&#x54C1;&#x7684;id</span>
-<span class="hljs-attr">    amount:</span> <span class="hljs-number">3</span>~<span class="hljs-number">7</span>
-<span class="hljs-attr">    rate:</span> <span class="hljs-number">5</span>
-<span class="hljs-attr">    edge:</span> rare
-  <span class="hljs-number">4</span>:
-<span class="hljs-attr">    type:</span> itemsadder
-<span class="hljs-attr">    id:</span> vortex_bow_netherite <span class="hljs-comment">#ia&#x7269;&#x54C1;&#x7684;id&#xFF0C;&#x5982;&#x679C;&#x6015;&#x91CD;&#x590D;&#x53EF;&#x4EE5;&#x5199;&#x6210;namespace:id</span>
-<span class="hljs-attr">    amount:</span> <span class="hljs-number">1</span>
-<span class="hljs-attr">    rate:</span> <span class="hljs-number">2</span>
-<span class="hljs-attr">    edge:</span> very_rare
-</code></pre>
-<p>&#x503C;&#x5F97;&#x6CE8;&#x610F;&#x7684;&#x662F;&#xFF0C;&#x5F88;&#x591A;&#x670D;&#x52A1;&#x5668;&#x4F1A;&#x5C06;MMOItems&#x7684;&#x7C7B;&#x578B;&#x540D;&#x7FFB;&#x8BD1;&#x6210;&#x4E2D;&#x6587;&#xFF0C;&#x5E76;&#x4E14;&#x52A0;&#x4E0A;&#x989C;&#x8272;&#xFF0C;&#x5982;&#x679C;&#x8981;&#x5728;&#x8FD9;&#x91CC;&#x4F7F;&#x7528;MMOItems&#x7684;&#x7269;&#x54C1;&#xFF0C;&#x5728;&#x586B;&#x5199;type&#x65F6;&#x9700;&#x8981;&#x5C06;&#x79CD;&#x7C7B;&#x7684;&#x5B8C;&#x6574;&#x540D;&#x5199;&#x4E0A;&#x3002;&#x6BD4;&#x65B9;&#x8BF4;: &#xA7;3[&#x5251;]&#x3002;</p>
 
                                 
                                 </section>
@@ -354,7 +397,7 @@
                 </a>
                 
                 
-                <a href="../添加材质.html" class="navigation navigation-next " aria-label="Next page: 添加材质">
+                <a href="奖励类型/原版物品.html" class="navigation navigation-next " aria-label="Next page: 原版物品">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -365,7 +408,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"奖励类型","level":"1.4.5","depth":2,"next":{"title":"添加材质","level":"1.5","depth":1,"path":"添加材质.md","ref":"添加材质.md","articles":[{"title":"添加牌面与牌背的材质","level":"1.5.1","depth":2,"path":"添加材质/添加牌面与牌背的材质.md","ref":"添加材质/添加牌面与牌背的材质.md","articles":[]}]},"previous":{"title":"award奖励配置","level":"1.4.4","depth":2,"path":"翻牌配置/award奖励配置.md","ref":"翻牌配置/award奖励配置.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["katex","livereload"],"pluginsConfig":{"katex":{},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"翻牌配置/奖励类型.md","mtime":"2022-02-26T20:24:13.953Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-02-26T20:54:41.308Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"奖励类型","level":"1.4.5","depth":2,"next":{"title":"原版物品","level":"1.4.5.1","depth":3,"path":"翻牌配置/奖励类型/原版物品.md","ref":"翻牌配置/奖励类型/原版物品.md","articles":[]},"previous":{"title":"award奖励配置","level":"1.4.4","depth":2,"path":"翻牌配置/award奖励配置.md","ref":"翻牌配置/award奖励配置.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["katex","livereload"],"pluginsConfig":{"katex":{},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"翻牌配置/奖励类型.md","mtime":"2022-03-01T14:47:17.771Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-03-01T17:16:37.413Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

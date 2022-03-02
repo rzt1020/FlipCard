@@ -21,7 +21,7 @@ award:
 - rate: 概率，数值越大越容易被抽到，当有多种奖励时，抽中奖励A的概率为 $$ {P}_{A} $$:
 
 $$
-		{P}_{A}=\frac {rate_A} {\sum_{k}(rate_{k})}
+{P}_{A}=\frac {rate_A} {\sum_{k}(rate_{k})}
 $$
 
 -  edge: 抽到某种奖励时的边框材质名，可以用来表现稀有度，边框的材质名在config.yml中查看。
